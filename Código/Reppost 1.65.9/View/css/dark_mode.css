@@ -1,0 +1,128 @@
+/* Notificaciones */
+#notification-badge {
+  font-size: 10px;
+  padding: 3px 6px;
+}
+#notifications-dropdown {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+#notifications-dropdown a {
+  color: #333;
+  display: block;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+#notifications-dropdown a:hover {
+  background-color: rgb(117, 204, 167);
+}
+/* Notificaciones en modo oscuro */
+body.dark-mode #notification-badge {
+  background-color: #ff5733; /* Un color para resaltar las notificaciones */
+}
+body.dark-mode #notifications-dropdown {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  border: 1px solid #444;
+}
+body.dark-mode #notifications-dropdown a {
+  color: #bbbbbb;
+}
+body.dark-mode #notifications-dropdown a:hover {
+  background-color: #333;
+  color: #00ff59; /* Resaltar en dorado cuando se pasa el cursor */
+}
+/* Modo oscuro para el buscador */
+body.dark-mode .navbar-form .form-control {
+  background-color: #333;
+  color: #ffffff;
+  border: 1px solid #555;
+}
+body.dark-mode .navbar-form .form-control::placeholder {
+  color: #888;
+}
+/* Estilos para el modo oscuro */
+body.dark-mode {
+  background-color: #1c1c1d;
+  color: #fefefe;
+}
+/* Estilo para los enlaces en modo oscuro */
+body.dark-mode p {
+  color: #ffffff;
+}
+body.dark-mode a {
+  color: #ffffff;
+}
+body.dark-mode h1{
+  color: #ffffff;
+}
+body.dark-mode h2{
+  color: #ffffff;
+}
+body.dark-mode h3{
+  color: #ffffff;
+}
+body.dark-mode h4{
+  color: #ffffff;
+}
+body.dark-mode strong{
+  color: #ffffff;
+}
+/* Estilo para el botón de modo oscuro en modo claro */
+#darkModeToggle {
+  background-color: #11a39c;
+  color: #343a40;
+}
+/* Estilo para el botón de modo oscuro en modo oscuro */ 
+body.dark-mode #darkModeToggle {
+  background-color: #39393a;
+  color: #f8f9fa;
+}
+body.dark-mode textarea{
+  background-color: #39393a;
+  color: #ffffff;
+}
+body.dark-mode header{
+  background-color: #39393a;
+  color: #ffffff;
+}
+body.dark-mode .panel {
+  background-color: #39393a; /* Fondo oscuro para el modo oscuro */
+}
+body.dark-mode .alert{
+  border: 2px solid #ffffff;
+}
+body.dark-mode hr{
+  border-top: 1px solid #ffffff;
+}
+body.dark-mode .profile-info{
+  background-color: #39393a;
+}
+body.dark-mode .panel {
+  background-color: #39393a;
+  color: #ffffff;
+}
+body.dark-mode .label {
+  background-color: #39393a;
+  color: #ffffff;
+}
+body.dark-mode .navbar-toggle:hover {
+  background-color: #ffffff;
+}
+body.dark-mode #upload_image {
+  background: #1c1c1d;
+}
+body.dark-mode .form-container{
+  background-color: #1c1c1d;
+  color: #ffffff;
+}
+body.dark-mode .list-group-item {
+  background-color: #39393a;
+  border: 1px solid #000000;
+}
+body.dark-mode .form-control {
+  color: #ffffff;
+  background-color: #333;
+}
