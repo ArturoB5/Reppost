@@ -1,0 +1,23 @@
+CONTENIDO OFENSIVO EN PUBLICACIONES VERIFICAR
+reportar contenido inapropiado guardando el reporte 
+
+tokenizacion de imagenes
+
+enviar email de confirmacion al registrarse
+enviar email de recuperacion de contraseña 
+
+enviar y compartir imagenes con amigos
+
+verificar si el correo existe (google, hotmail)
+
+bloquear a otro usuarios
+
+reacciones tokens dar y quitar y que se guardene en la base
+
+paypal de recompensas - por ver aun 
+
+2 tablas para mensajes
+
+etiquetado en comentarios de publicaciones a usuarios con @
+
+
