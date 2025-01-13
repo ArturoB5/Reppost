@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Image Creator</title>
+  <link rel="stylesheet" href="generate.css">
+</head>
+<body>
+  <div class="container">
+    <h1>AI Image Creator</h1>
+    <form id="imageForm">
+      <label for="prompt">Enter your prompt:</label>
+      <input type="text" id="prompt" name="prompt" required>
+      <button type="submit">Create Image</button>
+    </form>
+    <div id="responseContainer">
+      <h2>Generated Image</h2>
+      <img id="generatedImage" alt="Generated image will appear here">
+    </div>
+  </div>
+  <script src="generate.js"></script>
+</body>
+</html>
