@@ -1,0 +1,194 @@
+.post-image img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    margin-top: 10px;
+}
+.d-flex {
+    display: flex; /* Habilita Flexbox */
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: center; /* Alineación vertical */
+}
+.butt-a a {
+    margin-right: 1px; /* Espaciado entre los botones de acción */
+}
+.btn-heart {
+    background-color: rgb(39, 213, 135);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.icon-heart {
+    font-size: 15px; /* Tamaño del icono de corazón */
+}
+.icon-edit, .icon-share, .icon-warning-sign, .icon-trash {
+    font-size: 15px; /* Tamaño de los iconos de acción */
+}
+.pp {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+#masthead p {
+    text-align: left;
+    margin-top: 10px;
+}
+.mt-4 {
+    margin-top: 0.5rem;
+}
+.input-group textarea {
+    width: 100%;
+}
+/* Área de texto */
+textarea {
+    border: 2px solid;
+    border-radius: 5px;
+    height: 140px;
+    margin-top: 14px;
+    width: 90%;
+    max-width: 580px;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+}
+/* Oculta el input real del botón de archivo */
+.upload-btn input[type="file"] {
+    display: none; /* El campo de entrada permanece funcional pero invisible */
+}
+/* Botones uniformes */
+.upload-btn, .emoji-btn, .post-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%; /* Mismo ancho para todos */
+    font-size: 14px; /* Mismo tamaño de texto */
+    margin: 5px;
+    text-align: center;
+    min-height: 45px; /* Altura uniforme */
+}
+/* Colores específicos */
+.upload-btn {
+    background-color: #007bff; /* Azul */
+}
+
+.upload-btn:hover {
+    background-color: #0056b3; /* Azul más oscuro */
+}
+
+.post-btn {
+    background-color: #5cb85c; /* Verde */
+}
+
+.post-btn:hover {
+    background-color: #4cae4c; /* Verde más oscuro */
+}
+
+.emoji-btn {
+    background-color: #f7c411; /* Amarillo */
+}
+
+.emoji-btn:hover {
+    background-color: #e0a800; /* Amarillo más oscuro */
+}
+
+/* Iconos */
+.upload-btn i, .emoji-btn i, .post-btn i {
+    margin-right: 5px;
+    font-size: 16px; 
+}
+/* Fila de botones */
+.button-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    gap: 10px; /* Espaciado entre botones */
+    flex-wrap: wrap; /* Asegura que no se desborden */
+}
+/* Contenedor de imágenes seleccionadas */
+.preview-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+.preview-container .preview-item {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.preview-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.preview-container .delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0;
+}
+/* Picker de emoticonos */
+.emoji-picker {
+    display: none;
+    position: absolute;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    z-index: 1000;
+    max-height: 120px;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Categorías de emojis */
+.emoji-category {
+    margin-bottom: 15px;
+}
+.emoji-category h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+/* Estilo de los emojis */
+.emoji-picker span {
+    font-size: 24px;
+    margin: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    display: inline-block;
+}
+.emoji-picker span:hover {
+    transform: scale(1.2);
+}
