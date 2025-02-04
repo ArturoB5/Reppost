@@ -1,0 +1,74 @@
+/* Modal Overlay */
+.modal {
+  display: none;          /* Oculto por defecto */
+  position: fixed;        /* Permite superponerlo sobre la página */
+  z-index: 9999;          /* Aparece por encima de todos los elementos */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro semi-transparente */
+  backdrop-filter: blur(2px);          /* Efecto difuminado (si el navegador lo soporta) */
+}
+
+/* Contenedor del contenido modal */
+.modal-content {
+  background: #fff;       /* Fondo blanco */
+  width: 400px;           /* Ancho fijo */
+  max-width: 80%;         /* Max 80% del ancho de la pantalla en dispositivos pequeños */
+  margin: 10% auto;       /* Centrado vertical y horizontal */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra */
+  position: relative;     /* Para posicionar elementos dentro */
+  animation: fadeInDown 0.4s ease forwards; /* Animación de entrada */
+}
+
+/* Título del modal */
+.modal-content h3 {
+  margin-top: 0;
+  font-family: 'Arial Black', sans-serif;
+  font-size: 1.4rem;
+  color: #333;
+  text-align: center;
+}
+
+/* Párrafo dentro del modal */
+.modal-content p {
+  color: #444;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Botón Cerrar */
+.modal-content button#closeModalBtn {
+  display: inline-block;
+  margin: 0 auto;
+  background-color: #f44336;    /* Rojo */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s ease-in-out;
+  outline: none;
+}
+
+/* Efecto hover en el botón */
+.modal-content button#closeModalBtn:hover {
+  background-color: #e53935;  /* Un poco más oscuro */
+}
+
+/* Animación fadeInDown */
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
