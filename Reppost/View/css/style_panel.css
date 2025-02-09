@@ -1,0 +1,174 @@
+.post-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+.post-header {
+    display: flex;
+    align-items: center;
+}
+.profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.post-content {
+    margin-top: 15px;
+}
+.post-image {
+    text-align: center;
+    margin-top: 15px;
+}
+.post-image img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+.post-date {
+    color: #777;
+    font-size: 0.9em;
+}
+.comment-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+.comment-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.comment-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.comment-author {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.comment-date {
+    color: #777;
+    font-size: 0.9em;
+}
+.comment-text {
+    margin-top: 10px;
+    font-size: 1em;
+}
+#masthead {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.profile-info {
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+}
+.profile-info p {
+    margin-bottom: 5px;
+}
+.profile-info .info-label {
+    display: inline-block;
+    width: 150px;
+    /* ancho fijo a tu gusto */
+    color: #333;
+}
+.ticket-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.ticket-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.ticket-header h3 {
+    font-size: 20px;
+    color: #007acc;
+    margin: 0;
+}
+.ticket-status {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.ticket-status.resuelto {
+    color: #fff;
+    background-color: green;
+}
+.ticket-status.pendiente {
+    color: #fff;
+    background-color: red;
+}
+.ticket-info {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+.ticket-message {
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+    font-style: italic;
+    margin-bottom: 15px;
+    color: #333;
+    word-wrap: break-word;
+}
+.ticket-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ticket-date {
+    font-size: 12px;
+    color: #777;
+}
+/* === MODO OSCURO - Tickets de Ayuda === */
+.dark-mode .ticket-container {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    color: #ddd;
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+}
+.dark-mode .ticket-header h3 {
+    color: #56c1ff;
+}
+.dark-mode .ticket-status.pendiente {
+    background-color: #e63946;
+    color: white;
+}
+.dark-mode .ticket-status.resuelto {
+    background-color: #2a9d8f;
+    color: white;
+}
+.dark-mode .ticket-info {
+    color: #bbb;
+}
+.dark-mode .ticket-message {
+    background: #2a2a2a;
+    color: #ccc;
+    border: 1px solid #444;
+}
+.dark-mode .ticket-date {
+    color: #888;
+}

@@ -1,0 +1,91 @@
+/* Estilos comunes */
+form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.form-select {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+select:focus,
+.btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(38, 143, 255, 0.5);
+}
+
+/* Modo Claro */
+body.light-mode {
+    background-color: #fff;
+    color: #333;
+}
+
+body.light-mode form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+body.light-mode .form-select {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #333;
+}
+
+body.light-mode .btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+body.light-mode .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Modo Oscuro */
+body.dark-mode {
+    background-color: #181818;
+    color: #fff;
+}
+
+body.dark-mode form {
+    background-color: #3a3a3a;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+body.dark-mode .form-select {
+    background-color: #333;
+    border: 1px solid #444;
+    color: #fff;
+}
+
+body.dark-mode .btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+body.dark-mode .btn-primary:hover {
+    background-color: #0056b3;
+}
