@@ -1,0 +1,126 @@
+/* Contenedor Principal */
+.policies-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    animation: fadeIn 0.5s ease-in-out;
+}
+/* Título Principal */
+.policies-container h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #007acc;
+}
+/* Secciones de Políticas */
+.policy-section {
+    margin-top: 20px;
+    padding: 10px;
+    border-left: 5px solid #007acc;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+/* Títulos de Sección */
+.policy-section h2 {
+    font-size: 22px;
+    color: #333;
+}
+/* Párrafos */
+.policy-section p {
+    font-size: 16px;
+    color: #555;
+}
+/* Botón de Regreso */
+.back-btn {
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 10px 20px;
+    background: #007acc;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+}
+.back-btn:hover {
+    background: #005f99;
+    transform: scale(1.05);
+}
+/* Animación de Aparición */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* ====== MODO OSCURO ====== */
+.dark-mode .policies-container {
+    background: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+    color: #e0e0e0;
+}
+/* Título Principal */
+.dark-mode .policies-container h1 {
+    color: #4da8da;
+}
+/* Secciones de Políticas */
+.dark-mode .policy-section {
+    background: #2a2a2a;
+    border-left: 5px solid #4da8da;
+}
+/* Títulos de Sección */
+.dark-mode .policy-section h2 {
+    color: #f0f0f0;
+}
+/* Párrafos */
+.dark-mode .policy-section p {
+    color: #c9c9c9;
+}
+/* Botón de Regreso */
+.dark-mode .back-btn {
+    background: #4da8da;
+    color: #121212;
+}
+.dark-mode .back-btn:hover {
+    background: #3b92c2;
+    transform: scale(1.05);
+}
+/* Estilos generales */
+.language-btn {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+/* Hover */
+.language-btn:hover {
+    background-color: #005f99;
+    transform: scale(1.05);
+}
+/* Modo oscuro */
+.dark-mode .language-btn {
+    background-color: #222;
+    color: #f1f1f1;
+}
+.dark-mode .language-btn:hover {
+    background-color: #444;
+}

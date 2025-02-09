@@ -1,0 +1,215 @@
+.navbar-form input,
+.form-inline input {
+  width: auto;
+}
+#upload_image {
+  background: #c3c3c3;
+  border-radius: 35px;
+  padding: 16px;
+  margin-bottom: 10px;
+}
+.col-md-10 > p {
+  color: maroon;
+}
+.alerta {
+  border: none;
+  margin-bottom: 0px !important;
+  padding: 15px;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: rgba(184, 211, 207, 0.91);
+}
+.alert {
+  border: 2px solid;
+  margin-bottom: 0px !important;
+}
+.photo {
+  margin-top: 10px;
+}
+.top-spacer {
+  border-radius: 20px 20px 0 0;
+}
+.margin-p {
+  margin-left: 50px;
+}
+.mes {
+  margin-bottom: 35px;
+}
+.col-md-10 input {
+  margin-left: 12px;
+  padding: 5px;
+  width: 194px;
+}
+#po {
+  border-bottom: 1px solid;
+  border-radius: 11px;
+  width: 148px;
+}
+.col-md-5 > p {
+  color: black !important;
+}
+.top-spacer {
+  margin-top: 20px;
+}
+#photos {
+  border: 1px solid;
+  border-radius: 10px;
+  margin-top: -94px;
+  padding: 12px;
+}
+#masthead {
+  background: no-repeat !important;
+  background-size: cover !important;
+}
+
+footer {
+  font-size: 16px;
+  text-align: center;
+  color: black;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+header {
+  background: #11a39c;
+}
+body {
+  padding-top: 50px;
+  color: #000000;
+  background-color: #efefef;
+}
+h1,
+h2,
+h3,
+.highlight,
+.navbar a,
+#masthead h4 {
+  font-family: sans-serif;
+}
+.combo {
+  margin-bottom: 13px;
+  padding: 7px;
+  width: 301px;
+}
+.message {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+#masthead {
+  min-height: 199px;
+  background-color: #ffffff;
+  color: #000000;
+}
+#masthead h1 {
+  font-size: 55px;
+  line-height: 1;
+  color: #fefeff;
+  margin-top: 50px;
+}
+#masthead .well {
+  margin-top: 31px;
+  background-color: #111166;
+  border-color: #000022;
+  color: #efefff;
+  min-height: 127px;
+}
+#topPanel {
+  padding-top: 0px;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+#topPanel .panel-body {
+  padding-top: 0px;
+}
+.navbar.affix {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.top-spacer {
+  background-color: #ffffff;
+  height: 10px;
+}
+a,
+a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+.icon-bar {
+  background-color: #000000;
+}
+@media screen and (min-width: 768px) {
+  #masthead h1 {
+    font-size: 80px;
+  }
+}
+.navbar-bright {
+  color: #fff;
+  margin-bottom: 0;
+  border-width: 0;
+}
+.navbar-bright a,
+.navbar-bright .navbar-brand,
+#masthead h4 {
+  color: #000000;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+}
+.navbar-bright li > a:hover {
+  background-color: #11635f;
+}
+.dropdown-menu {
+  min-width: 250px;
+}
+.caret {
+  color: #fff;
+}
+.navbar-toggle {
+  color: #fff;
+  border-width: 0;
+}
+.navbar-toggle:hover {
+  background-color: #11635f;
+}
+.panel {
+  display:inline-block; 
+  background-color: #fff;
+  border-radius: 20px; 
+  width:100%
+}
+.thumbnail {
+  margin-bottom: 8px;
+}
+.img-container {
+  overflow: hidden;
+  height: 170px;
+}
+.img-container img {
+  min-width: 280px;
+  min-height: 180px;
+  max-width: 380px;
+  max-height: 280px;
+}
+.txt-container {
+  overflow: hidden;
+  height: 100px;
+}
+.panel .lead {
+  overflow: hidden;
+  height: 90px;
+}
+.label-float {
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  opacity: 0.9;
+  padding: 6px;
+  color: #fff;
+}
